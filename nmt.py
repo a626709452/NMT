@@ -32,7 +32,7 @@ class EncoderDecoder(object):
         self.clip_c = kwargs.get('clip_c')
         self.rng = rng
         self.trng = RandomStreams(rng.randint(1e5))
-
+1
         # added by Zhaopeng Tu, 2016-04-29
         self.with_coverage = kwargs.get('with_coverage')
         self.coverage_dim = kwargs.get('coverage_dim')
