@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 class EncoderDecoder(object):
 
     def __init__(self, rng, **kwargs):
-        self.n_in_src = kwargs.get('nembed_src')
+        self.n_in_src = kwargs.get('nembed_src')#
         self.n_in_trg = kwargs.get('nembed_trg')
         self.n_hids_src = kwargs.get('nhids_src')
         self.n_hids_trg = kwargs.get('nhids_trg')
